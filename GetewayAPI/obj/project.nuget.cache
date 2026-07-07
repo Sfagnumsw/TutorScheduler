@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "449MFyiS6rCO1FL2RvZsQjQHvtKIMPcvy52kNSHV9pomn8dDqHH4bUSb0g/VoBfE9WYO3+A0zevKiLSH33KYYw==",
+  "dgSpecHash": "Dze3kJ5m9cD9R3LOoIrVkMEPi3qTMvbibqQ4KMl7PQvhF9LlZYKjOG0DMXKffQeGn/HS26fiq9/csi/4/DiYpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\GetewayAPI\\GetewayAPI.csproj",
+  "projectFilePath": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\GetewayAPI\\Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\swimm\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\swimm\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

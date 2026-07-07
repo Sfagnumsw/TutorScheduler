@@ -522,9 +522,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\GetewayAPI\\GetewayAPI.csproj",
-      "projectName": "GetewayAPI",
-      "projectPath": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\GetewayAPI\\GetewayAPI.csproj",
+      "projectUniqueName": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\GetewayAPI\\Gateway.csproj",
+      "projectName": "Gateway",
+      "projectPath": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\GetewayAPI\\Gateway.csproj",
       "packagesPath": "C:\\Users\\swimm\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\GetewayAPI\\obj\\",
       "projectStyle": "PackageReference",
