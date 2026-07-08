@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Auth\\Auth.csproj": {}
+    "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Gateway\\Gateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Auth\\Auth.csproj": {
+    "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Gateway\\Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Auth\\Auth.csproj",
-        "projectName": "Auth",
-        "projectPath": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Auth\\Auth.csproj",
+        "projectUniqueName": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Gateway\\Gateway.csproj",
+        "projectName": "Gateway",
+        "projectPath": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Gateway\\Gateway.csproj",
         "packagesPath": "C:\\Users\\swimm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Auth\\obj\\",
+        "outputPath": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Gateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\swimm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,10 +48,6 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.6, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[8.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
