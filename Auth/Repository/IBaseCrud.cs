@@ -2,9 +2,10 @@
 {
     public interface IBaseCrud<T> where T : class
     {
-        T Get(int id);
-        T Create(T entity);
-        T Update(T entity);
-        T Delete (int id);
+        Task<T?> Get(int id);
+        Task Create(T entity);
+        Task Update(T entity);
+        Task Delete (int id);
+        Task<IEnumerable<T>> GetAll();
     }
 }

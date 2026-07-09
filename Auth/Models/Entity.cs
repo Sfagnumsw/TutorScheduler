@@ -1,8 +1,8 @@
 ﻿namespace Auth.Models
 {
-    public abstract class Entity(string name)
+    public abstract class Entity
     {
         public int Id { get; set; }
-        public string Name { get; set; } = name;
+        public string Name { get; set; } = null!;
     }
 }

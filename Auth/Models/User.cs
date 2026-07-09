@@ -1,7 +1,7 @@
 ﻿namespace Auth.Models
 {
-    public class User(string name, Role role, string tgTag, Account account) : Recipient(name, role, tgTag)
+    public class User : Recipient
     {
-        public Account Account { get; set; } = account;
+        public Account Account{ get; set; } = null!;
     }
 }

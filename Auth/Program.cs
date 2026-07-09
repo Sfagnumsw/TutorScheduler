@@ -1,4 +1,7 @@
 
+using Auth.Infrastructure;
+using Microsoft.EntityFrameworkCore;
+
 namespace Auth
 {
     public class Program
@@ -6,6 +9,9 @@ namespace Auth
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<EFContext>(options =>
+        options.UseNpgsql(builder.Configuration.GetConnectionString("PsqlConnectionString")));
 
             // Add services to the container.
 

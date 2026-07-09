@@ -1,9 +1,9 @@
 ﻿namespace Auth.Models
 {
-    public class Account(string email, string password)
+    public class Account
     {
         public int Id { get; set; }
-        public string Email { get; set; } = email;
-        public string Password { get; set; } = password;
+        public string Email { get; set; } = null!;
+        public string Password { get; set; } = null!;
     }
 }

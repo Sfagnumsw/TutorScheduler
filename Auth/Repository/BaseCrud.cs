@@ -1,25 +1,33 @@
-﻿namespace Auth.Repository
+﻿using Auth.Infrastructure;
+using Microsoft.EntityFrameworkCore;
+
+namespace Auth.Repository
 {
-    public class BaseCrud<T> : IBaseCrud<T> where T : class
+    public abstract class BaseCrud<T>(EFContext efContext) : IBaseCrud<T> where T : class
     {
-        public T Create(T entity)
+        protected readonly EFContext context = efContext;
+
+        public async Task<T?> Get(int id) => await context.Set<T>().FindAsync(id);
+
+        public async Task<IEnumerable<T>> GetAll() => await context.Set<T>().ToListAsync();
+
+        public async Task Create(T entity)
         {
-            throw new NotImplementedException();
+            await context.AddAsync(entity);
+            await context.SaveChangesAsync();
         }
 
-        public T Delete(int id)
+        public async Task Delete(int id)
         {
-            throw new NotImplementedException();
+            var entity = await Get(id);
+            context.Remove(entity);
+            await context.SaveChangesAsync();
         }
 
-        public T Get(int id)
+        public async Task Update(T entity)
         {
-            throw new NotImplementedException();
-        }
-
-        public T Update(T entity)
-        {
-            throw new NotImplementedException();
+            context.Set<T>().Update(entity);
+            await context.SaveChangesAsync();
         }
     }
 }
