@@ -1,4 +1,4 @@
-﻿using Auth.Models;
+﻿using Auth.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Auth.Infrastructure

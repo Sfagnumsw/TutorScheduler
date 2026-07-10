@@ -1,4 +1,4 @@
-﻿namespace Auth.Models
+﻿namespace Auth.Core.Models
 {
     public class Role : Entity
     {

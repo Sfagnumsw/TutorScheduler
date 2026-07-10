@@ -1,6 +1,6 @@
-﻿using Auth.Models;
+﻿using Auth.Core.Models;
 
-namespace Auth.Repository
+namespace Auth.Core.Repository
 {
     public interface IUserRepository : IBaseCrud<User>
     {
