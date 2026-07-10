@@ -1,7 +1,7 @@
 ﻿using Auth.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Auth.Infrastructure
+namespace Auth.Infrastructure.DataBase
 {
     public class EFContext(DbContextOptions<EFContext> options) : DbContext(options)
     {
@@ -12,8 +12,10 @@ namespace Auth.Infrastructure
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Role>().HasData(new Role { Id = 1, Name = "teacher" });
-            modelBuilder.Entity<Role>().HasData(new Role { Id = 2, Name = "student" });
+            modelBuilder.Entity<Role>().HasData(Role.Create("teacher"));
+            modelBuilder.Entity<Role>().HasData(Role.Create("student"));
+
+            //TODO Добавить индексы на Account.Email и Role.Name
         }
 
     }

@@ -1,5 +1,4 @@
-
-using Auth.Infrastructure;
+using Auth.Infrastructure.DataBase;
 using Microsoft.EntityFrameworkCore;
 
 namespace Auth
