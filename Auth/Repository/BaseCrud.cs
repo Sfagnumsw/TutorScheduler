@@ -7,9 +7,9 @@ namespace Auth.Repository
     {
         protected readonly EFContext context = efContext;
 
-        public async Task<T?> Get(int id) => await context.Set<T>().FindAsync(id);
+        public async Task<T?> Get(int id) => await context.Set<T>().AsNoTracking().FirstOrDefaultAsync(e => EF.Property<int>(e, "Id") == id);
 
-        public async Task<IEnumerable<T>> GetAll() => await context.Set<T>().ToListAsync();
+        public async Task<IEnumerable<T>> GetAll() => await context.Set<T>().AsNoTracking().ToListAsync();
 
         public async Task Create(T entity)
         {

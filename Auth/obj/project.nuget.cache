@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Zq2Km9n3+mpCK8hcX9EnuJX74/pcTusbVWXncLLZFqLS0Y1K318XekzzenlbSqBV5igYLtyjA9Dk10sh5GQBKQ==",
+  "dgSpecHash": "e/1QtC9Wm985w0BZEMO/xsbs3+NmV2p28XMz36eac7ZXSnev6VGd+XR8RcAdbXgp2joBTZXu5L42n9WIHX5y+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Auth\\Auth.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\swimm\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\swimm\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\swimm\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\swimm\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
