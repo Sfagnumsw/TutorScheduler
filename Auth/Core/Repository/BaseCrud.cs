@@ -1,7 +1,7 @@
 ﻿using Auth.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
-namespace Auth.Repository
+namespace Auth.Core.Repository
 {
     public abstract class BaseCrud<T>(EFContext efContext) : IBaseCrud<T> where T : class
     {
