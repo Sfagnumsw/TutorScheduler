@@ -109,3 +109,6 @@ C:\Users\swimm\OneDrive\Документы\Visual Studio 2022\TutorScheduler\Aut
 C:\Users\swimm\OneDrive\Документы\Visual Studio 2022\TutorScheduler\Auth\obj\Debug\net8.0\Auth.pdb
 C:\Users\swimm\OneDrive\Документы\Visual Studio 2022\TutorScheduler\Auth\obj\Debug\net8.0\Auth.genruntimeconfig.cache
 C:\Users\swimm\OneDrive\Документы\Visual Studio 2022\TutorScheduler\Auth\obj\Debug\net8.0\ref\Auth.dll
+C:\Users\swimm\OneDrive\Документы\Visual Studio 2022\TutorScheduler\Auth\obj\Debug\net8.0\Auth.Infrastructure.Resources.DefaultResource.en.resources
+C:\Users\swimm\OneDrive\Документы\Visual Studio 2022\TutorScheduler\Auth\obj\Debug\net8.0\Auth.Infrastructure.Resources.DefaultResource.ru.resources
+C:\Users\swimm\OneDrive\Документы\Visual Studio 2022\TutorScheduler\Auth\obj\Debug\net8.0\Auth.csproj.GenerateResource.cache

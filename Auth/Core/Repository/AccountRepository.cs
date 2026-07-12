@@ -8,7 +8,7 @@ namespace Auth.Core.Repository
     {
         public async Task<bool> IsUniqueEmail(string email)
         {
-            return !await context.Accounts.AnyAsync(a => a.Email == email);
+            return !await context.Accounts.AsNoTracking().AnyAsync(a => a.Email == email);
         }
 
         /// <summary>
@@ -18,7 +18,7 @@ namespace Auth.Core.Repository
         /// <returns>Аккаунт</returns>
         public async Task<Account?> GetAccountByEmail(string email)
         {
-            return await context.Set<Account>().SingleOrDefaultAsync(x => x.Email == email);
+            return await context.Accounts.AsNoTracking().SingleOrDefaultAsync(x => x.Email == email);
         }
     }
 }

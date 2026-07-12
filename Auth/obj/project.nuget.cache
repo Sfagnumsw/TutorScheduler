@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e/1QtC9Wm985w0BZEMO/xsbs3+NmV2p28XMz36eac7ZXSnev6VGd+XR8RcAdbXgp2joBTZXu5L42n9WIHX5y+A==",
+  "dgSpecHash": "iwgatwuhuX96DbCpezGAmBTmpHh9rOkLgUUuJbKp/kZ/hjUB2yWUhQt2vS/FuamUbCnmcoUCQPTRtRkocki32w==",
   "success": true,
   "projectFilePath": "C:\\Users\\swimm\\OneDrive\\Документы\\Visual Studio 2022\\TutorScheduler\\Auth\\Auth.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,9 @@
     "C:\\Users\\swimm\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\swimm\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\swimm\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\swimm\\.nuget\\packages\\nlog\\6.1.4\\nlog.6.1.4.nupkg.sha512",
+    "C:\\Users\\swimm\\.nuget\\packages\\nlog.extensions.logging\\6.1.4\\nlog.extensions.logging.6.1.4.nupkg.sha512",
+    "C:\\Users\\swimm\\.nuget\\packages\\nlog.web.aspnetcore\\6.1.4\\nlog.web.aspnetcore.6.1.4.nupkg.sha512",
     "C:\\Users\\swimm\\.nuget\\packages\\npgsql\\8.0.6\\npgsql.8.0.6.nupkg.sha512",
     "C:\\Users\\swimm\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.11\\npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512",
     "C:\\Users\\swimm\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
